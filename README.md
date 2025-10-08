@@ -1,8 +1,8 @@
-#TruSecrets
+# TruSecrets
 
 Really simple secrets management tool built for other projects, useful if you don't want to pay for more sophisticated solutions
 
-#Setup
+## Setup
 First run the install script with
 ```
 sudo bash install.sh
@@ -13,7 +13,7 @@ Then run
 ./secrets_manager
 ```
 
-#Usage
+## Usage
 When running secrets_manager, first enter a master password. Remember it, as it is basically a namespace that you'll need for all secrets within it.
 
 Store:
@@ -33,5 +33,4 @@ Enter your master password: test_master
 Enter command (store/get/exit): get
 Enter secret name: test_secret
 Secret: secret_value
-Enter command (store/get/exit): 
 ```
